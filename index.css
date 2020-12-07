@@ -1,0 +1,68 @@
+#leftlabel {
+  width: 50%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.psdata {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: 2px solid black;
+  border-radius: 12px;
+  margin-right: 20em;
+}
+
+.header3 {
+  color: white;
+  background-color: black;
+  border-radius: 12px;
+  margin-right: 17em;
+  padding: 1em;
+}
+
+.downtextbox {
+  width: 50%;
+  border-width: 1px;
+  margin: 8px 1px;
+  border-color: black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.labels {
+  display: inline-block;
+  text-align: left;
+  width: 10em;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 3px;
+}
+
+#rightlabel {
+  float: right;
+  display: inline-block;
+  text-align: left;
+  width: 10em;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 3px;
+}
+
+.inputbox {
+  margin: 8px 1px;
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+.textbox {
+  width: 20em;
+  border-width: 1px;
+  margin-bottom: 1px;
+  border-color: black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}

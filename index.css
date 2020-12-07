@@ -1,6 +1,16 @@
+.headerbox {
+  float: right;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  margin-right: 2em;
+}
+
 h1 {
+  font-size: 5em;
   text-align: center;
-  margin-right: 10em;
+  margin-right: 10%;
+  margin-bottom: 50px;
 }
 
 .form {
@@ -16,7 +26,6 @@ input {
 }
 
 .Stextbox {
-  width: 100%;
   border-width: 1px;
   margin-bottom: 1px;
   border-color: black;

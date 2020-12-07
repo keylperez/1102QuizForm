@@ -8,181 +8,73 @@
     <title>Document</title>
 </head>
 <header>
-    <h1>BIO-DATA</h1>
+
 </header>
 <body>
     <div>
+        <h1>BIO-DATA</h1>
         <h3 class="header3">PERSONAL DATA</h3>
         <div class="psdata">
-            <table>
-                <form action="" method="get" id="psdata">
-                    <!--remove this comment afterward-->
-                    <!--
-                    use this div format per label and input so that you can align them
-                    <div class="rowtab">
-                        <div class="labels">
-                            
-                        </div>
-                        <div class="inputbox">
-                        </div>
-                    </div>
-                    -->
-                    <tr>
-                        <div id="rightlabel">
-                            <div class="rowtab">
-                                <div class="labels">
-                                    <td><label for="date">Date</label></td>
-                                    <td><input type="text" id="date"></td>
-                                </div>
-                                <div class="inputbox">
-                                </div>
-                            </div>
-                        </div>
+            <form action="" method="get" id="psdata">
+                <table>
+                    <tr class="tableRow">
+                        <td class="labelbox"><label for="posDesire" class="labels">Position Desire</label></td>
+                        <td class="inputbox">: <input type="text" name="input1" id="posDesire" class="textbox" autocomplete="false"></td>
+                        <td class="labelbox"><label for="date" class="labels">Date</label></td>
+                        <td class="inputbox">: <input type="date" name="input2" id="date" class="textbox" autocomplete="false"></td>
                     </tr>
-                    <div id="leftlabel">
-                        <tr>
-                        <div class="rowtab">
-                            <div class="labels">
-                                <td><label for="posDesire">Position Desired</label></td>
-                            </div>
-                            <div class="inputbox">
-                                <td>: <input type="text" id="posDesire" class="textbox" autocomplete="false" autocomplete="false"></td>
-                            </div>
-                        </div>
-                        </tr>
-                        <tr> 
-                            <div class="rowtab">
-                                <div class="labels">
-                                    <td><label for="name">Name</label></td>
-                                </div>
-                                <div class="inputbox">
-                                    <td>: <input type="text" id="name" class="textbox" autocomplete="false"></td>
-                                </div>
-                            </div>
-                        </tr>
-                        <tr>
-                            <div class="rowtab">
-                                <div class="labels">
-                                    <td><label for="cityAddress">City Address</label></td>
-                                </div>
-                                <div class="inputbox">
-                                    <td>: <input type="text" id="cityAddress" class="textbox" autocomplete="false"></td>
-                                </div>
-                            </div>
-                        </tr>
-                        <div class="rowtab">
-                            <div class="labels">
-                                <label for="telephone">Telephone</label>
-                            </div>
-                            <div class="inputbox">
-                                : <input type="tel" id="telephone" class="textbox" autocomplete="false">
-                            </div>
-                        </div>
-                        <div class="rowtab">
-                            <div class="labels">
-                                <label for="email">E-mail Address</label>
-                            </div>
-                            <div class="inputbox">
-                                : <input type="email" id="email" class="textbox" autocomplete="false">
-                            </div>
-                        </div>
-                        <div class="rowtab">
-                            <div class="labels">
-                                <label for="datebirth">Date of Birth</label>
-                            </div>
-                            <div class="inputbox">
-                                : <input type="text" id="datebirth" class="textbox" autocomplete="false">
-                            </div>
-                        </div>
-                        <div class="rowtab">
-                            <div class="labels">
-                                <label for="civlStats">Civil Status</label>
-                            </div>
-                            <div class="inputbox">
-                                : <input type="text" id="civilStats" class="textbox" autocomplete="false">
-                            </div>
-                        </div>
-                        <div class="rowtab">
-                            <div class="labels">
-                                <label for="height">Height</label>
-                            </div>
-                            <div class="inputbox">
-                                : <input type="text" id="height" class="textbox" autocomplete="false"><br>
-                            </div>
-                        </div>
-                        <div class="rowtab">
-                            <div class="labels">
-                                <label for="religion">Religion</label>
-                            </div>
-                            <div class="inputbox">
-                                : <input type="text" id="religion" class="textbox" autocomplete="false"><br>
-                            </div>
-                        </div>
-                        <div class="rowtab">
-                            <div class="labels">
-                                <label for="spouse">Spouse</label>
-                            </div>
-                            <div class="inputbox">
-                                : <input type="text" id="spouse" class="textbox" autocomplete="false"><br>
-                            </div>
-                        </div>
-                        <div class="rowtab">
-                            <div class="labels">
-                                <label for="nameChild">Name of Children</label>
-                            </div>
-                            <div class="inputbox">
-                                : <input type="text" id="nameChild1" class="nameChild textbox" autocomplete="false"><br>
-                            </div>
-                        </div>
-                        <div class="rowtab">
-                            <div class="labels">
-                                
-                            </div>
-                            <div class="inputbox">
-                                : <input type="text" id="nameChild2" class="nameChild textbox" autocomplete="false"><br>
-                            </div>
-                        </div>
-                        <div class="rowtab">
-                            <div class="labels">
-                                
-                            </div>
-                            <div class="inputbox">
-                                : <input type="text" id="nameChild3" class="nameChild textbox" autocomplete="false"><br>
-                            </div>
-                        </div>
-                        <div class="rowtab">
-                            <div class="labels">
-                                <label for="nameFather">Father's Name</label>
-                            </div>
-                            <div class="inputbox">
-                                : <input type="text" id="nameFather" class="textbox" autocomplete="false"><br>
-                            </div>
-                        </div>
-                        <div class="rowtab">
-                            <div class="labels">
-                                <label for="nameMother">Mother's Name</label>
-                            </div>
-                            <div class="inputbox">
-                                : <input type="text" id="nameMother" class="textbox" autocomplete="false"><br>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="rowtab">
-                        <div class="downLabels">
-                            <label for="language">Language or dialect spoken or written</label>
-                            : <input type="text" id="language" class="downtextbox" autocomplete="false"><br>
-                        </div>
-                    </div>
-                    <div class="rowtab">
-                        <div class="downLabels">
-                            <label for="contact">Person to be contacted in case of emergency</label>
-                            : <input type="text" id="contact" class="downtextbox" autocomplete="false"><br>
-                        </div>
-                    </div>
-                </form>
-            </table>
-
+                    <tr class="tableRow">
+                        <td class="labelbox"><label for="name" class="labels">Name</label></td>
+                        <td class="inputbox">: <input type="text" name="input3 " id="name" class="textbox" autocomplete="false"></td>
+                        <td class="labelbox"><label for="gender" class="labels">Gender</label></td>
+                        <td class="inputbox">: <input type="text" name="input4" id="gender" class="textbox" autocomplete="false"></td>
+                    </tr>
+                    <tr class="tableRow">
+                        <td class="labelbox"><label for="cityAddress" class="labels">City Adress</label></td>
+                        <td colspan="3">: <input type="text" name="input5 " id="cityAddress" class="textbox" autocomplete="false"></td>
+                    </tr>
+                    <tr class="tableRow">
+                        <td class="labelbox"><label for="provAddress" class="labels">Provincial Adress</label></td>
+                        <td colspan="3">: <input type="text" name="input6 " id="provAddress" class="textbox" autocomplete="false"></td>
+                    </tr>
+                    <tr class="tableRow">
+                        <td class="labelbox"><label for="telephone" class="labels">Telephone</label></td>
+                        <td class="inputbox">: <input type="tel" name="input7 " id="telephone" class="textbox" autocomplete="false"></td>
+                        <td class="labelbox"><label for="cellphone1" class="labels">Cellphone</label></td>
+                        <td class="inputbox">: <input type="text" name="input8" id="cellphone1" class="textbox" autocomplete="false"></td>
+                    </tr>
+                    <tr class="tableRow">
+                        <td class="labelbox"><label for="email" class="labels">E-mail Address</label></td>
+                        <td class="inputbox">: <input type="email" name="input9" id="email" class="textbox" autocomplete="false"></td>
+                        <td class="labelbox"><label for="cellphone2" class="labels"></label></td>
+                        <td class="inputbox">: <input type="text" name="input10" id="cellphone2" class="textbox" autocomplete="false"></td>
+                    </tr>
+                    <tr class="tableRow">
+                        <td class="labelbox"><label for="datebirth" class="labels">Date of Birth</label></td>
+                        <td class="inputbox">: <input type="date" name="input11" id="datebirth" class="textbox" autocomplete="false"></td>
+                        <td class="labelbox"><label for="birthplace" class="labels">Birth of Place</label></td>
+                        <td class="inputbox">: <input type="text" name="input12" id="birthplace" class="textbox" autocomplete="false"></td>
+                    </tr>
+                    <tr class="tableRow">
+                        <td class="labelbox"><label for="civilStat" class="labels">Civil Status</label></td>
+                        <td class="inputbox">: <input type="text" name="input13 " id="civilStat" class="textbox" autocomplete="false"></td>
+                        <td class="labelbox"><label for="citizenship" class="labels">Citizenship</label></td>
+                        <td class="inputbox">: <input type="text" name="input14" id="citizenship" class="textbox" autocomplete="false"></td>
+                    </tr>
+                    <tr class="tableRow">
+                        <td class="labelbox"><label for="height" class="labels">Height</label></td>
+                        <td class="inputbox">: <input type="text" name="input15 " id="height" class="textbox" autocomplete="false"></td>
+                        <td class="labelbox"><label for="weight" class="labels">Weight</label></td>
+                        <td class="inputbox">: <input type="text" name="input16" id="weight" class="textbox" autocomplete="false"></td>
+                    </tr>
+                    <tr class="tableRow">
+                        <td class="labelbox"><label for="religion" class="labels">Religion</label></td>
+                        <td class="inputbox">: <input type="text" name="input17 " id="religion" class="textbox" autocomplete="false"></td>
+                        <td class="labelbox"></td>
+                        <td class="inputbox"></td>
+                    </tr>
+                </table>
+            </form>
         </div>
     </div>
 </body>

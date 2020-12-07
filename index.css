@@ -1,15 +1,27 @@
-#leftlabel {
-  width: 50%;
-  margin: 0%;
-  padding: 0%;
+h1 {
+  text-align: center;
+  margin-right: 10em;
 }
 
-.psdata {
+#psdata {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   border: 2px solid black;
   border-radius: 12px;
   margin-right: 20em;
+}
+
+.tableRow {
+  width: 100%;
+}
+/*temporary
+td {
+  border: 1px solid black;
+}
+*/
+table {
+  width: 100%;
+  margin: initial;
 }
 
 .header3 {
@@ -20,49 +32,33 @@
   padding: 1em;
 }
 
-.downtextbox {
-  width: 50%;
-  border-width: 1px;
-  margin: 8px 1px;
-  border-color: black;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-}
-
 .labels {
   display: inline-block;
   text-align: left;
   width: 10em;
-  padding: 5px;
+  padding: 5px 5px 5px 5px;
   vertical-align: top;
   margin-top: 3px;
-}
-
-#rightlabel {
-  float: right;
-  display: inline-block;
-  text-align: left;
-  width: 10em;
-  padding: 5px;
-  vertical-align: top;
-  margin-top: 3px;
-}
-
-.inputbox {
-  margin: 8px 1px;
-  display: inline-block;
-  text-align: left;
-  width: 48%;
-  vertical-align: middle;
 }
 
 .textbox {
-  width: 20em;
+  width: 96%;
   border-width: 1px;
   margin-bottom: 1px;
   border-color: black;
   border-top: none;
   border-left: none;
   border-right: none;
+}
+
+.labelbox {
+  width: 5em;
+}
+
+.inputbox {
+  margin: 1px 1px;
+  display: inline-block;
+  text-align: left;
+  width: 90%;
+  vertical-align: middle;
 }

@@ -3,12 +3,26 @@ h1 {
   margin-right: 10em;
 }
 
-#psdata {
+.form {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   border: 2px solid black;
   border-radius: 12px;
   margin-right: 20em;
+}
+
+input {
+  outline: 0px;
+}
+
+.Stextbox {
+  width: 100%;
+  border-width: 1px;
+  margin-bottom: 1px;
+  border-color: black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
 .tableRow {
@@ -59,6 +73,6 @@ table {
   margin: 1px 1px;
   display: inline-block;
   text-align: left;
-  width: 90%;
+  width: 98%;
   vertical-align: middle;
 }
